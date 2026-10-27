@@ -1,0 +1,3 @@
+# Why Build This App
+
+I created this website to showcase my progress and improvement in learning React. Throughout this project, I applied essential React concepts, including component-based architecture, **React Router's BrowserRouter** for navigation between pages, and standard React Hooks such as `useState` and `useEffect` to manage state and handle side effects. I also explored different approaches to styling React components, improving my understanding of component structure, reusability, and UI design. This project represents my practical learning journey and my growing skills in building interactive and well-structured React applications.

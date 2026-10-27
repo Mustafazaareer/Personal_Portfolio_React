@@ -1,0 +1,125 @@
+.middleContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 78vh;
+}
+
+.contactSection {
+  color: aliceblue;
+  width: 50rem;
+  height: 31rem;
+  display: flex;
+  border-radius: 15px;
+  border: 1px solid #45464e;
+}
+
+.contactDetailes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: baseline;
+  border-right: 1px solid #45464e;
+  background-color: #1e2629;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 25rem;
+  padding: 2.6rem;
+}
+
+.formSection {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 25rem;
+  background-color: #191c1e;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: last baseline;
+  gap: 4px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.text {
+  width: 17rem;
+  height: 2rem;
+  background-color: #101415;
+  border-radius: 5px;
+  border: 1px #6b7280 solid;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.textArea {
+  height: 5rem;
+}
+
+.sendMessageBtn {
+  color: black;
+  background-color: #7bd0ff;
+  width: 17rem;
+  height: 3rem;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 17px;
+  font-weight: 800;
+  box-shadow: -1px 10px 45px -20px #7bd0ff;
+  cursor: pointer;
+  /* box-shadow: #7bd0ff 0px 10px 40px -12px; */
+}
+
+.sendMessageBtn:hover {
+  transform: scale(1.03);
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.linksContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.line {
+  width: 20rem;
+  border: none;
+  border-top: 1px solid rgba(255, 254, 254, 0.174);
+  margin-top: 1.5rem;
+  margin-bottom: 4rem;
+}
+.link {
+  border: none;
+  color: #c7c7cd;
+}
+
+.link:hover {
+  color: #7bd0ff;
+}
+
+.message {
+  max-width: 20rem;
+  color: #c7c7cd;
+}

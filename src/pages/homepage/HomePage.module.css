@@ -1,0 +1,81 @@
+.intro {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 78vh;
+  justify-content: center;
+}
+.status {
+  border: 0.5px solid rgb(157, 157, 157);
+  color: aliceblue;
+  font-size: medium;
+  font-weight: 500;
+  width: 10rem;
+  height: 1.5rem;
+  background-color: #0b0f10;
+  padding: 0.5rem;
+  border-radius: 20px;
+  color: #7bd0ff;
+}
+
+.job {
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  font-weight: 800;
+  color: aliceblue;
+}
+.coloredText {
+  color: #7bd0ff;
+}
+.aboutMe {
+  color: aliceblue;
+  font-weight: 500;
+  font-size: larger;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 600;
+  border: 0.7px solid white;
+  padding: 15px 30px;
+  transition: all 0.3s ease;
+}
+.projectsBtn {
+  background: #7bd0ff;
+  color: #0b2a3a;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.projectsBtn:hover {
+  transform: scale(1.03);
+}
+.contactBtn:hover {
+  border: 1px solid #7bd0ff;
+  border-radius: 5px;
+}
+.arrow {
+  display: inline-block;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.projectsBtn:hover .arrow {
+  transform: translateX(8px);
+}

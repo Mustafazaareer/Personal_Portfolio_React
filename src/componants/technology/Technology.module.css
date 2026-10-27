@@ -1,0 +1,25 @@
+.tech {
+  width: fit-content;
+  height: fit-content;
+  background-color: #0f172a;
+  color: #7bd0ff;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #252a38;
+  border-radius: 3px;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.mainProjectTech {
+  width: fit-content;
+  height: fit-content;
+  background-color: #0f172a;
+  color: #7bd0ff;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #252a38;
+  border-radius: 3px;
+  font-size: 20px;
+  margin-left: 10px;
+}

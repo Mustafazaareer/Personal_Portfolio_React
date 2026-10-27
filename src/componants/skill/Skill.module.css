@@ -1,0 +1,35 @@
+.skillCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  justify-content: space-around;
+  gap: 24px;
+  min-height: 130px;
+  background: #171c1f;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skillCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 3px 10px rgba(104, 201, 230, 0.242);
+}
+
+.skillIcon {
+  width: 35px;
+  height: 35px;
+  color: #4cc9f0;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2;
+}
+
+.skillName {
+  font-family: "JetBrains Mono", "Fira Code", ui-monospace, monospace;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #e6e8ee;
+  line-height: 1.5;
+}

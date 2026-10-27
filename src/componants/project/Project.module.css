@@ -1,0 +1,143 @@
+.mainProject {
+  width: 90vw;
+  min-height: 75vh;
+  display: flex;
+  color: aliceblue;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #292b2f;
+  border-radius: 30px;
+  background-color: #0b0f10;
+}
+
+.mainProject:hover {
+  border-color: rgba(123, 208, 255, 0.6);
+  box-shadow: -1px 3px 14px -4px rgba(123, 208, 255, 0.58);
+}
+
+.mainProject .projectImg {
+  margin-top: 10px;
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+}
+
+.project {
+  width: 35rem;
+  min-height: 32rem;
+  display: flex;
+  color: aliceblue;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #292b2f;
+  border-radius: 30px;
+  background-color: #0b0f10;
+}
+
+.project:hover {
+  border-color: rgba(123, 208, 255, 0.6);
+  box-shadow: -1px 3px 14px -4px rgba(123, 208, 255, 0.58);
+}
+
+.intro {
+  margin-top: 20px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.projectImg {
+  margin-top: 10px;
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+}
+.img {
+  width: 98%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.img:hover {
+  transform: scale(1.1);
+}
+.projectDetails {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+}
+.technologies {
+  width: 100%;
+}
+
+.projectName {
+  margin-left: 20px;
+}
+.projectParagraph {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  color: #c6c6cd;
+  width: 90%;
+  text-align: left;
+}
+.btns {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.line {
+  width: 90%;
+  border-color: #1f2125;
+  border-radius: 1px;
+  opacity: 0.3;
+  margin-top: 10px;
+}
+
+.link {
+  border: none;
+  cursor: pointer;
+}
+
+.liveDemo {
+  color: #7bd0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.liveDemo:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.repo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.technologies {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.demoIcon {
+  width: 20px;
+  height: 20px;
+  margin-left: 2px;
+}
+.codeIcon {
+  width: 30px;
+  height: 30px;
+}

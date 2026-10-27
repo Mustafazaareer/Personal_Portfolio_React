@@ -1,0 +1,36 @@
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.project .main {
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.project {
+  min-width: 0;
+  overflow: hidden;
+}
+
+/* Mobile: one card per row */
+@media (max-width: 600px) {
+  .mainContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .project.main {
+    grid-column: auto;
+    min-height: auto;
+  }
+}
